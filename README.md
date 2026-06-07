@@ -247,20 +247,6 @@ pipeline-studio/
 
 ---
 
-## Screenshots
-
-> _Add screenshots before submission._
-
-| View        | Screenshot                          |
-|-------------|-------------------------------------|
-| Landing     | _`docs/screenshots/landing.png`_    |
-| Dashboard   | _`docs/screenshots/dashboard.png`_  |
-| Studio      | _`docs/screenshots/studio.png`_     |
-| Validation  | _`docs/screenshots/validation.png`_ |
-| Deployments | _`docs/screenshots/deployments.png`_|
-
----
-
 ## Future Improvements
 
 - Auto-resize the Text node **width** (height already grows with content).
