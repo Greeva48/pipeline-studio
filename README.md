@@ -245,7 +245,7 @@ pipeline-studio/
     └── migrations/             # SQL schema migrations (V001–V011)
 ```
 
----
+
 
 ## Future Improvements
 
