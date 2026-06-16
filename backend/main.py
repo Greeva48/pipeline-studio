@@ -67,3 +67,14 @@ app.include_router(validation.router)
 app.include_router(deployments.router)
 app.include_router(activity.router)
 app.include_router(settings.router)
+
+
+@app.get("/", include_in_schema=False)
+async def root():
+    return {
+        "service": app_settings.app_name,
+        "version": app_settings.app_version,
+        "status": "ok",
+        "docs": "/docs",
+        "health": "/health",
+    }
